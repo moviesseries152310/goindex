@@ -195,6 +195,11 @@ export default {
           scheme: "potplayer://" + this.videoUrl,
         },
         {
+          name: "VidHub",
+          icon: this.$cdnpath("images/player/vidhub.png"),
+          scheme: "open-vidhub://x-callback-url/open?url=" + encodeURIComponent(this.videoUrl),
+        },
+        {
           name: "VLC",
           icon: this.$cdnpath("images/player/vlc.png"),
           scheme: "vlc://" + this.videoUrl,
