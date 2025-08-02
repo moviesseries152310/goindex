@@ -196,7 +196,7 @@ export default {
         },
         {
           name: "VidHub",
-          icon: this.$cdnpath("images/player/vidhub.png"),
+          icon: "https://play-lh.googleusercontent.com/2em6mT01bQyPfiXtdfKBBDc6unGf82MMkkG8o8J7FBl9TyoRC96FGAGykn0grrqOAJ0=w480-h960-rw",
           scheme: "open-vidhub://x-callback-url/open?url=" + encodeURIComponent(this.videoUrl),
         },
         {
